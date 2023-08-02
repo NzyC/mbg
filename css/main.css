@@ -657,6 +657,23 @@ ul.footer-nav a:hover{
 	font-weight: 600;
 }
 
+.contact_hover {
+	transition: all 300ms ease;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact_hover:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.contact_hover:hover {
+	cursor: pointer;
+	color: #f6de11;
+	text-decoration: none;
+}
+
 .contact-social li {
 	display: inline-block
 }
