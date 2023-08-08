@@ -690,6 +690,21 @@ ul.footer-nav a:hover{
 	position: relative
 }
 
+.landing-hero {
+	display: flex;
+	justify-content: center;
+} 
+
+.insta-icon {
+	color: white;
+	margin-left: 20px;
+	transition: all 300ms ease;
+}
+
+.insta-icon:hover {
+	transform: scale(1.2);
+}
+
 .contact-social li a:before {
 	position: absolute;
 	content: '';
